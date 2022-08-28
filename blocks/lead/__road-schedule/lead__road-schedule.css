@@ -1,0 +1,9 @@
+.lead__road-schedule {
+    position: absolute;
+    width: 937.09px;
+    height: 262.99px;
+    left: 171.27px;
+    top: 594.21px;
+    z-index: 2;
+    background-image: url(../../../images/road-schedule.svg);
+}
