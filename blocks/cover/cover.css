@@ -1,0 +1,10 @@
+.cover {
+    max-width: 1184px;
+    height: 740px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../images/__background.jpg);
+}
+
+.cover::after {
+    background: rgba(0,0,0,.5);
+}

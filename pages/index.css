@@ -5,6 +5,8 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
 
 /* Elements */
 @import url(../blocks/header/__lang-links/header__lang-links.css);
@@ -23,6 +25,13 @@
 @import url(../blocks/photo-grid/__element/photo-gtid__element.css);
 @import url(../blocks/photo-grid/__item/photo-gtid__item.css);
 @import url(../blocks/photo-grid/__list/photo-grid__list.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
 
 /* Modifiers */
 @import url(../blocks/header/__lang-item/_active/header__lang-item_active.css);
