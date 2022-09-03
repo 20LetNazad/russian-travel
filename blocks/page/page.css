@@ -3,4 +3,6 @@
     color: #fff;
     font-family: 'Inter';
     width: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
 }
