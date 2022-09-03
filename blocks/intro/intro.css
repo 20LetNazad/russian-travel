@@ -3,3 +3,25 @@
     margin-left: 148px;
     padding-top: 92px;
 }
+
+@media screen and (max-width: 1279px) {
+    .intro {
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .intro {
+        max-width: 720px;
+        margin: 0 auto;
+        padding-top: 88px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        max-width: 228px;
+        margin: 0 auto;
+        padding-top: 64px;
+    }
+}
