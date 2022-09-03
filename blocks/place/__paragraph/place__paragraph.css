@@ -8,6 +8,10 @@
     line-height: 29px;
 }
 
+.place__paragraph:last-child {
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 1023px) {
     .place__paragraph {
         font-size: 16px;
@@ -19,9 +23,5 @@
     .place__paragraph {
         width: 288px;
         margin: 0 auto 25px auto;
-    }
-
-    .place__paragraph:last-child {
-        margin: 0 auto;
     }
 }
