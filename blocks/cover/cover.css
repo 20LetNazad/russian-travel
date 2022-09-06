@@ -2,15 +2,12 @@
     max-width: 1184px;
     min-height: 740px;
     margin: 0 auto;
-    background-image: url(../../images/__background.jpg);
-    object-fit: fill;
 }
 
 @media screen and (max-width: 1279px) {
     .cover {
         max-width: 1024px;
         min-height: 640px;
-        background-size: 1024px 640px;
     }
 }
 
@@ -18,7 +15,6 @@
     .cover {
         max-width: 768px;
         min-height: 480px;
-        background-size: 768px 480px;
     }
 }
 
@@ -26,6 +22,5 @@
     .cover {
         max-width: 320px;
         min-height: 200px;
-        background-size: 320px 200px;
     }
 }

@@ -26,8 +26,10 @@
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <img src="./images/__image.jpg" class="lead__image" alt="девушка в поезде">
-                <p class="lead__caption">ваша полка — верхняя</p>
+                <figure class="lead__image-block">
+                    <img src="./images/__image.jpg" class="lead__image" alt="девушка в поезде">
+                    <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+                </figure>
             </section>
             <section class="intro">
                 <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -39,11 +41,26 @@
                     в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые
                     интересные места, достойные вашего отпуска.</p>
                 <ul class="intro__list">
-                    <li class="intro__list-text">Часовых поясов 11</li>
-                    <li class="intro__list-text">Объектов природного наследия ЮНЕСКО 12</li>
-                    <li class="intro__list-text">Объектов культурного наследия ЮНЕСКО 16</li>
-                    <li class="intro__list-text">Природных заповедников 105</li>
-                    <li class="intro__list-text">Аэропортов 241</li>
+                    <li>
+                        <span class="intro__list-text">Часовых поясов</span>
+                        11
+                    </li>
+                    <li>
+                        <span class="intro__list-text">Объектов природного наследия ЮНЕСКО</span>
+                        12
+                    </li>
+                    <li>
+                        <span class="intro__list-text">Объектов культурного наследия ЮНЕСКО</span>
+                        16
+                    </li>
+                    <li>
+                        <span class="intro__list-text">Природных заповедников</span>
+                        105
+                    </li>
+                    <li>
+                        <span class="intro__list-text">Аэропортов</span>
+                        241
+                    </li>
                 </ul>
             </section>
             <section class="photo-grid">
@@ -95,7 +112,7 @@
                             <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
                         </div>
                         <img src="./images/kosa.jpg" alt="корни деревьев в воде" class="place__image">
-                        <div>
+                        <div class="place__block-paragraph">
                             <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
                                 водных
                                 горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн
@@ -117,7 +134,7 @@
                                 class="place__link">National Geographic</a>
                         </div>
                         <img src="./images/kolskiy.jpg" alt="снежные горы" class="place__image">
-                        <div>
+                        <div class="place__block-paragraph">
                             <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская
                                 тундра,
                                 от которой на юг —
@@ -142,7 +159,7 @@
                                 class="place__link">Facebook</a>
                         </div>
                         <img src="./images/altai.jpg" alt="ноутбук на фоне леса" class="place__image">
-                        <div>
+                        <div class="place__block-paragraph">
                             <p class="place__paragraph">Алтай — одно из красивейших мест в России.
                                 В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные
                                 соснами,
@@ -165,7 +182,7 @@
                             <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
                         </div>
                         <img src="./images/baikal.jpg" alt="лед озера байкал" class="place__image">
-                        <div>
+                        <div class="place__block-paragraph">
                             <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
                                 в мире. Многие также знают, что это самый большой источник пресной воды и одно из
                                 красивейших мест в России.</p>
@@ -198,7 +215,8 @@
             <section class="cover">
                 <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay">
                     <h2 class="cover__title">До Байкала «на собаках»</h2>
-                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
+                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе &mdash; путешествие от столицы до
+                        Байкала
                         на
                         электричках.</p>
                 </a>
@@ -207,20 +225,20 @@
         <footer class="footer">
             <nav>
                 <ul class="footer__links">
-                    <li class="footer__link">
-                        <a href="https://yandex.ru/maps" class="footer__item">Карты</a>
+                    <li class="footer__item">
+                        <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
                     </li>
-                    <li class="footer__link">
-                        <a href="https://yandex.ru/pogoda" class="footer__item">Погода</a>
+                    <li class="footer__item">
+                        <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
                     </li>
-                    <li class="footer__link">
-                        <a href="https://rasp.yandex.ru" class="footer__item">Расписание</a>
+                    <li class="footer__item">
+                        <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
                     </li>
-                    <li class="footer__link">
-                        <a href="https://calendar.yandex.ru" class="footer__item">Календарь</a>
+                    <li class="footer__item">
+                        <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
                     </li>
-                    <li class="footer__link">
-                        <a href="https://travel.yandex.ru" class="footer__item">Путешествия</a>
+                    <li class="footer__item">
+                        <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
                     </li>
                 </ul>
             </nav>
